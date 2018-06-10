@@ -8,6 +8,9 @@
             serverurl="${sfSandbox.serverurl}"
             deployRoot="${Sandbox2.retrieveTarget}"
             runAllTests="true" />
+	  
+	  <runTest>HelloWorldTest</runTest>
+	  </sf:deploy>
   </target>
   <echo message = "${Sandbox1.username}" />
   <target name="retrieve">
