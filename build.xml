@@ -10,7 +10,6 @@
             runAllTests="true" />
 	  
 	  <runTest>HelloWorldTest</runTest>
-	  </sf:deploy>
   </target>
   <echo message = "${Sandbox1.username}" />
   <target name="retrieve">
