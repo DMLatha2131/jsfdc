@@ -6,7 +6,7 @@
             username="${Sandbox2.username}"
             password="${Sandbox2.password}"
             serverurl="${sfSandbox.serverurl}"
-            deployRoot="${Sandbox2.retrieveTarget}"
+            deployRoot="Demopkg"
             runAllTests="true" />
 	  
 	  <runTest>HelloWorldTest</runTest>
