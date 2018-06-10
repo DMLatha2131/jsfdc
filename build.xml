@@ -8,7 +8,6 @@
             serverurl="${sfSandbox.serverurl}"
             deployRoot="Demopkg"
             runAllTests="true" />
-	  
 	  <runTest>HelloWorldTest</runTest>
   </target>
   <echo message = "${Sandbox1.username}" />
